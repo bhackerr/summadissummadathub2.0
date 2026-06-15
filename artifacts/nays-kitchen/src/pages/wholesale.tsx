@@ -47,8 +47,15 @@ export default function Wholesale() {
       {/* Header */}
       <div className="bg-secondary py-20 px-4">
         <div className="container mx-auto max-w-5xl text-center">
-          <span className="text-secondary-foreground uppercase tracking-widest font-bold text-sm mb-4 block">Partner With Us</span>
-          <h1 className="font-serif text-5xl md:text-6xl font-bold text-secondary-foreground mb-6">Wholesale Products</h1>
+          <div className="flex justify-center mb-8">
+            <img
+              src="/images/logo-transparent.png"
+              alt="Nay's Summa Dis Summa Dat Kitchen"
+              className="h-52 w-auto object-contain drop-shadow-2xl"
+            />
+          </div>
+          <span className="text-secondary-foreground/70 uppercase tracking-widest font-bold text-sm mb-4 block">Partner With Us</span>
+          <h1 className="font-display text-5xl md:text-7xl text-secondary-foreground mb-6">Wholesale Products</h1>
           <p className="text-xl text-secondary-foreground/90 max-w-2xl mx-auto">
             Bring the signature flavors of Nay's Kitchen to your grocery store, restaurant, or specialty shop.
           </p>

@@ -21,9 +21,11 @@ export function Layout({ children }: { children: ReactNode }) {
       <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto px-4 h-20 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <span className="font-display text-3xl md:text-4xl text-primary tracking-wide">
-              Nay's Kitchen
-            </span>
+            <img
+              src="/images/logo.png"
+              alt="Nay's Summa Dis Summa Dat Kitchen"
+              className="h-14 w-auto object-contain"
+            />
           </Link>
 
           {/* Desktop Nav */}
@@ -79,7 +81,11 @@ export function Layout({ children }: { children: ReactNode }) {
       <footer className="bg-foreground text-background py-16 mt-auto">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-12">
           <div className="md:col-span-2">
-            <h3 className="font-serif text-3xl font-bold text-primary mb-6">Nay's Kitchen</h3>
+            <img
+              src="/images/logo-transparent.png"
+              alt="Nay's Summa Dis Summa Dat Kitchen"
+              className="h-28 w-auto object-contain mb-4"
+            />
             <p className="text-background/80 max-w-md leading-relaxed">
               Summa dis, summa dat, and a whole lotta love. Serving up soulful, home-cooked meals that bring the community together, one plate at a time.
             </p>
