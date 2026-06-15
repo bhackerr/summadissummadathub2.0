@@ -17,7 +17,7 @@ export default function Home() {
           <span className="font-script block text-2xl md:text-3xl text-primary mb-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
             Welcome to the family
           </span>
-          <h1 className="font-display text-7xl md:text-9xl lg:text-[11rem] mb-6 max-w-5xl mx-auto leading-none tracking-wide animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-150">
+          <h1 className="font-lobster text-7xl md:text-9xl lg:text-[10rem] mb-6 max-w-5xl mx-auto leading-tight animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-150">
             Summa Dis, Summa Dat. All Love.
           </h1>
           <p className="text-xl md:text-2xl font-light mb-10 max-w-2xl mx-auto text-white/90 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300">
