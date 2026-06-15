@@ -1,0 +1,38 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "Hz2vQ90Nm6nJiN4qvy2qr"
+uri = "file://artifacts/nays-kitchen/public/images/hero.png"
+type = "image"
+title = "Soul food hero spread"
+
+[[generated]]
+id = "LvlC320TgoJllFz6Nd2Jz"
+uri = "file://artifacts/nays-kitchen/public/images/mac-and-cheese.png"
+type = "image"
+title = "Baked mac and cheese"
+
+[[generated]]
+id = "9oKyI0sY7gwK9oLMgzH2k"
+uri = "file://artifacts/nays-kitchen/public/images/fried-chicken.png"
+type = "image"
+title = "Fried chicken platter"
+
+[[generated]]
+id = "hAORCePfK7nO9XYqdOJtJ"
+uri = "file://artifacts/nays-kitchen/public/images/catering.png"
+type = "image"
+title = "Outdoor catering setup"
+
+[[generated]]
+id = "l3tR-IGh1UHocSQuQDQ7-"
+uri = "file://artifacts/nays-kitchen/public/images/wholesale.png"
+type = "image"
+title = "Wholesale sauces and spices"
+
+[[generated]]
+id = "oQoBTbqceQcUvndUgt_NP"
+uri = "file://artifacts/nays-kitchen/public/images/about-kitchen.png"
+type = "image"
+title = "Warm homestyle kitchen"
