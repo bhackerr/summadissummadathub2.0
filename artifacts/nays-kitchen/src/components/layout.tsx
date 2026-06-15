@@ -21,8 +21,8 @@ export function Layout({ children }: { children: ReactNode }) {
       <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto px-4 h-20 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <span className="font-serif text-2xl md:text-3xl font-bold tracking-tight text-primary">
-              Nay's
+            <span className="font-display text-3xl md:text-4xl text-primary tracking-wide">
+              Nay's Kitchen
             </span>
           </Link>
 
