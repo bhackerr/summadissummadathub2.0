@@ -18,7 +18,7 @@ export function Layout({ children }: { children: ReactNode }) {
 
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col font-sans">
-      <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-black">
         <div className="container mx-auto px-4 h-20 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <img
@@ -35,7 +35,7 @@ export function Layout({ children }: { children: ReactNode }) {
                 key={link.href}
                 href={link.href}
                 className={`text-sm font-medium transition-colors hover:text-primary ${
-                  location === link.href ? "text-primary border-b-2 border-primary py-1" : "text-foreground/80"
+                  location === link.href ? "text-primary border-b-2 border-primary py-1" : "text-white/80"
                 }`}
               >
                 {link.label}
