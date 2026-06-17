@@ -2,6 +2,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @plugin "@tailwindcss/typography";
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
 
 @custom-variant dark (&:is(.dark *));
 
@@ -241,8 +242,8 @@
   }
 
   .font-display {
-    font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 0.02em;
+    font-family: 'DynaPuff', sans-serif;
+    letter-spacing: 0.08rem;
   }
 
   .font-script {
