@@ -3,6 +3,7 @@
 @import "tw-animate-css";
 @plugin "@tailwindcss/typography";
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
 @custom-variant dark (&:is(.dark *));
 
@@ -61,7 +62,7 @@
   --font-sans: 'Outfit', sans-serif;
   --font-serif: 'Playfair Display', serif;
   --font-display: 'Bebas Neue', sans-serif;
-  --font-script: 'Pacifico', cursive;
+  --font-script: 'Rubik Mono One', cursive;
   --font-lobster: 'Lobster', cursive;
   --font-mono: var(--app-font-mono);
 
@@ -253,6 +254,11 @@
   .font-lobster {
     font-family: 'Lobster', cursive;
   }
+}
+.rubik-mono-one-regular {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 100;
+  font-style: bolder;
 }
 
 /**

@@ -15,10 +15,10 @@ export default function Home() {
         />
         <div className="container mx-auto px-4 relative z-20 text-center text-white">
           <span className="font-script block text-2xl md:text-3xl text-primary mb-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
-            Welcome to the family
+            Nay's
           </span>
           <h1 className="font-lobster text-7xl md:text-9xl lg:text-[10rem] mb-6 max-w-5xl mx-auto leading-tight animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-150">
-            Summa Dis, Summa Dat. All Love.
+            Summa Dis, Summa Dat.
           </h1>
           <p className="text-xl md:text-2xl font-light mb-10 max-w-2xl mx-auto text-white/90 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300">
             Soulful, generous, home-cooked meals that bring the community together.
