@@ -92,6 +92,41 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Wholesale CTA Section */}
+      <section className="py-24 bg-black text-white">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-12">
+            <div className="flex flex-col md:flex-row items-center gap-8">
+              <img
+                src="/images/logo-transparent.png"
+                alt="Nay's Kitchen"
+                className="h-36 w-auto object-contain flex-shrink-0"
+              />
+              <div>
+                <span className="font-script text-primary text-xl block mb-2">For Retailers & Restaurants</span>
+                <h2 className="font-lobster text-4xl md:text-5xl mb-4 leading-tight">
+                  Carry Nay's on Your Shelves
+                </h2>
+                <p className="text-white/70 text-lg max-w-xl">
+                  Our signature sauces, seasonings, and prepared sides are available for wholesale. Visit our dedicated wholesale portal to browse product lines, check minimum orders, and apply for a partnership account.
+                </p>
+              </div>
+            </div>
+            <div className="flex-shrink-0">
+              <a
+                href="https://wholesale.nayskitchen.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 bg-primary hover:bg-primary/90 text-white font-bold text-lg px-10 py-5 rounded-full transition-colors duration-200 whitespace-nowrap"
+              >
+                Visit Wholesale Site
+                <span className="text-xl">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Featured Dish Section */}
       <section className="py-24 bg-card relative overflow-hidden">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-16">

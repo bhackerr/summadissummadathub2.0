@@ -56,9 +56,18 @@ export default function Wholesale() {
           </div>
           <span className="text-secondary-foreground/70 uppercase tracking-widest font-bold text-sm mb-4 block">Partner With Us</span>
           <h1 className="font-display text-5xl md:text-7xl text-secondary-foreground mb-6">Wholesale Products</h1>
-          <p className="text-xl text-secondary-foreground/90 max-w-2xl mx-auto">
+          <p className="text-xl text-secondary-foreground/90 max-w-2xl mx-auto mb-10">
             Bring the signature flavors of Nay's Kitchen to your grocery store, restaurant, or specialty shop.
           </p>
+          <a
+            href="https://wholesale.nayskitchen.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 bg-primary hover:bg-primary/90 text-white font-bold text-lg px-10 py-5 rounded-full transition-colors duration-200"
+          >
+            Visit Our Wholesale Portal
+            <span className="text-xl">→</span>
+          </a>
         </div>
       </div>
 
