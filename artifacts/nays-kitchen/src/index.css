@@ -58,8 +58,8 @@
   --color-sidebar-accent-border: var(--sidebar-accent-border);
   --color-sidebar-ring: hsl(var(--sidebar-ring));
 /* fonts, lobster big headlines, script accent script lines matches current logo's fonts, font display is all caps display text, serif is elegant section headings, outfit  body text*/
-  --font-sans: outfit, sans-serif;
-  --font-serif: 'Playfair Display', serif
+  --font-sans: 'Outfit', sans-serif;
+  --font-serif: 'Playfair Display', serif;
   --font-display: 'Bebas Neue', sans-serif;
   --font-script: 'Pacifico', cursive;
   --font-lobster: 'Lobster', cursive;
