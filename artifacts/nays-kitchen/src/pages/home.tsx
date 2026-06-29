@@ -14,7 +14,7 @@ export default function Home() {
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="container mx-auto px-4 relative z-20 text-center text-white">
-          <span className="font-script block text-2xl md:text-3xl text-primary mb-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
+          <span className="font-script block text-6xl md:text-6xl text-primary mb-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
             Nay's
           </span>
           <h1 className="font-lobster text-7xl md:text-9xl lg:text-[10rem] mb-6 max-w-5xl mx-auto leading-tight animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-150">
