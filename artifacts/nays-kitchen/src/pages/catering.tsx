@@ -56,9 +56,9 @@ export default function Catering() {
         />
         <div className="container mx-auto px-4 relative z-20 text-center text-white mt-16 flex flex-col items-center">
           <img
-            src="/images/catering-logo.png"
+            src="/images/catering-logo-transparent.png"
             alt="Summa Dis Summa Dat Catering"
-            className="h-52 md:h-64 w-auto object-contain rounded-2xl mb-6 drop-shadow-2xl"
+            className="h-52 md:h-64 w-auto object-contain mb-6 drop-shadow-2xl"
           />
           <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
             From intimate family reunions to massive corporate events, we bring the warmth, flavor, and generosity of Nay's right to your venue.
