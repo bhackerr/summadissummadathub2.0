@@ -47,15 +47,19 @@ export default function Catering() {
   return (
     <div className="w-full bg-background min-h-screen">
       {/* Hero */}
-      <div className="relative h-[60vh] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-black/50 z-10" />
+      <div className="relative h-[70vh] flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 bg-black/60 z-10" />
         <img 
           src="/images/catering.png" 
           alt="Catering setup" 
           className="absolute inset-0 w-full h-full object-cover"
         />
-        <div className="container mx-auto px-4 relative z-20 text-center text-white mt-16">
-          <h1 className="font-serif text-5xl md:text-7xl font-bold mb-6">Let Us Feed Your Crowd</h1>
+        <div className="container mx-auto px-4 relative z-20 text-center text-white mt-16 flex flex-col items-center">
+          <img
+            src="/images/catering-logo.png"
+            alt="Summa Dis Summa Dat Catering"
+            className="h-52 md:h-64 w-auto object-contain rounded-2xl mb-6 drop-shadow-2xl"
+          />
           <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
             From intimate family reunions to massive corporate events, we bring the warmth, flavor, and generosity of Nay's right to your venue.
           </p>
