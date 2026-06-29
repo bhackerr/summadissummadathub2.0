@@ -7,21 +7,16 @@ export default function Home() {
     <div className="w-full">
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-black/50 z-10" />
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
+        <div className="absolute inset-0 bg-black/40 z-10" />
+        <img 
+          src="/images/hero.png" 
+          alt="Soul food spread" 
           className="absolute inset-0 w-full h-full object-cover"
-        >
-          <source src="/images/hero-video.mov" type="video/mp4" />
-          <img src="/images/hero.png" alt="Soul food spread" className="w-full h-full object-cover" />
-        </video>
+        />
         <div className="container mx-auto px-4 relative z-20 text-center text-white">
-          <span className="font-script block text-6xl md:text-6xl text-primary mb-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
-            Nay's
-          </span>
+        /* <span className="font-script block text-6xl md:text-6xl text-primary mb-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
+          
+          </span> */
           <h1 className="font-lobster text-7xl md:text-9xl lg:text-[10rem] mb-6 max-w-5xl mx-auto leading-tight animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-150">
             Summa Dis, Summa Dat.
           </h1>
