@@ -66,7 +66,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-1">Call Us</h3>
-                  <p className="text-muted-foreground">(555) 123-4567</p>
+                  <p className="text-muted-foreground">(774) 437-0594</p>
                 </div>
               </div>
 
@@ -81,10 +81,10 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="bg-primary/10 p-3 rounded-full text-primary">
+                {/* <div className="bg-primary/10 p-3 rounded-full text-primary">
                   <Clock className="w-6 h-6" />
                 </div>
-                <div>
+                 <div>
                   <h3 className="font-bold text-lg mb-1">Hours</h3>
                   <ul className="text-muted-foreground space-y-1">
                     <li>Tue - Thu: 11am - 8pm</li>
@@ -92,7 +92,7 @@ export default function Contact() {
                     <li>Sun: 12pm - 6pm</li>
                     <li>Mon: Closed (Resting our souls)</li>
                   </ul>
-                </div>
+                </div>   */}
               </div>
             </div>
           </div>

@@ -82,7 +82,7 @@ export default function Home() {
             {/* Wholesale */}
             <div className="group cursor-pointer">
               <div className="relative h-80 rounded-2xl overflow-hidden mb-6">
-                <img src="/images/wholesale.png" alt="Wholesale products" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src="/images/wholesaleg.PNG" alt="Wholesale products" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 <h3 className="absolute bottom-6 left-6 font-serif text-3xl font-bold text-white">Wholesale</h3>
               </div>
@@ -108,7 +108,7 @@ export default function Home() {
               <div>
                 <span className="font-script text-primary text-xl block mb-2">For Retailers & Restaurants</span>
                 <h2 className="font-lobster text-4xl md:text-5xl mb-4 leading-tight">
-                  Carry Nay's on Your Shelves
+                  Carry Summa Dis Summa Dat on Your Shelves
                 </h2>
                 <p className="text-white/70 text-lg max-w-xl">
                   Our signature sauces, seasonings, and prepared sides are available for wholesale. Visit our dedicated wholesale portal to browse product lines, check minimum orders, and apply for a partnership account.
@@ -134,15 +134,15 @@ export default function Home() {
       <section className="py-24 bg-card relative overflow-hidden">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-16">
           <div className="w-full md:w-1/2 relative">
-            <div className="absolute -inset-4 bg-primary/10 rounded-full blur-3xl -z-10" />
-            <img src="/images/mac-and-cheese.png" alt="Mac and Cheese" className="w-full h-auto rounded-3xl shadow-2xl transform -rotate-2" />
+            <div className="absolute -inset-4 bg-primary/10 rounded-full blur-2xl -z-10" />
+            <img src="/images/soulrolls.jpg" alt="Soul Rolls" className="w-full h-auto rounded-3xl shadow-2xl transform -rotate-2" />
           </div>
           <div className="w-full md:w-1/2">
             <h2 className="font-serif text-4xl md:text-6xl font-bold mb-6 text-foreground">
-              The Mac That Made Us Famous.
+              Try our Soul Rolls.
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Baked to golden perfection with five different cheeses, a crispy crust, and a rich, creamy center. It's the side dish that steals the show every single time. Come see what the hype is about.
+              A true culinary journey. Delicate, crispy egg roll wrappers are packed with smoked turkey, seasoned collard greens, and a decadent, truffled macaroni and cheese. Deep-fried to perfection and served with a tangy Creole remoulade.
             </p>
             <Button asChild size="lg" className="rounded-full px-8">
               <Link href="/menu">Get Yours Today</Link>

@@ -48,9 +48,9 @@ export default function Catering() {
     <div className="w-full bg-background min-h-screen">
       {/* Hero */}
       <div className="relative h-[70vh] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-black/60 z-10" />
+        <div className="absolute inset-0 bg-black/35 z-10"/>
         <img 
-          src="/images/catering.png" 
+          src="/images/family.jpg" 
           alt="Catering setup" 
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -61,7 +61,7 @@ export default function Catering() {
             className="h-52 md:h-64 w-auto object-contain mb-6 drop-shadow-2xl"
           />
           <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
-            From intimate family reunions to massive corporate events, we bring the warmth, flavor, and generosity of Nay's right to your venue.
+            From joyful family reunions to large corporate events, we bring the warmth, flavor, and generosity of Summa Dis Summa Dat right to your venue.
           </p>
         </div>
       </div>
@@ -73,7 +73,7 @@ export default function Catering() {
             <h2 className="font-serif text-4xl font-bold mb-8">Full-Service Catering with Soul</h2>
             <div className="space-y-8 text-lg text-muted-foreground">
               <p>
-                When you book Nay's for your event, you're not just getting food—you're getting an experience. We handle the heavy lifting so you can focus on making memories with your people.
+                When you book Summa Dis Summa Dat for your event, you're not just getting food—you're getting an experience. We handle the heavy lifting so you can focus on enjoying yourself and have a full belly.
               </p>
               
               <div>

@@ -19,7 +19,6 @@ export function Layout({ children }: { children: ReactNode }) {
     { href: "/menu", label: "Menu" },
     { href: "/catering", label: "Catering" },
     { href: "/wholesale", label: "Wholesale" },
-    { href: "/about", label: "Our Story" },
     { href: "/contact", label: "Contact" },
   ];
 
@@ -112,9 +111,9 @@ export function Layout({ children }: { children: ReactNode }) {
           <div>
             <h4 className="font-serif text-xl font-bold mb-6">Contact</h4>
             <ul className="space-y-4 text-background/80">
-              <li>123 Soulful Ave</li>
-              <li>Flavor Town, ST 12345</li>
-              <li>(555) 123-4567</li>
+              <li>123 xxxxxxx</li>
+              <a href="https://www.instagram.com/summadissummadat_kitchen?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> Instagram (Click Here)</a>
+              <li>(774) 437-0594</li>
               <li>hello@nayskitchen.com</li>
             </ul>
           </div>

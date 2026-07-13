@@ -77,7 +77,7 @@ export default function Wholesale() {
           <div>
             <div className="rounded-3xl overflow-hidden shadow-2xl mb-10">
               <img 
-                src="/images/wholesale.png" 
+                src="/images/food.jpg" 
                 alt="Nay's Wholesale Products" 
                 className="w-full h-auto object-cover"
               />

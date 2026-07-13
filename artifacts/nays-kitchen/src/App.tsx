@@ -8,8 +8,8 @@ import { Layout } from "@/components/layout";
 import Home from "@/pages/home";
 import Menu from "@/pages/menu";
 import Catering from "@/pages/catering";
+/* import About from "@/pages/about"; */
 import Wholesale from "@/pages/wholesale";
-import About from "@/pages/about";
 import Contact from "@/pages/contact";
 
 const queryClient = new QueryClient();
@@ -22,7 +22,6 @@ function Router() {
         <Route path="/menu" component={Menu} />
         <Route path="/catering" component={Catering} />
         <Route path="/wholesale" component={Wholesale} />
-        <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
         <Route component={NotFound} />
       </Switch>
