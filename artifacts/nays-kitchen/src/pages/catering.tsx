@@ -50,7 +50,7 @@ export default function Catering() {
       <div className="relative h-[70vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-black/35 z-10"/>
         <img 
-          src="/images/family.jpg" 
+          src="/images/group.jpg" 
           alt="Catering setup" 
           className="absolute inset-0 w-full h-full object-cover"
         />
