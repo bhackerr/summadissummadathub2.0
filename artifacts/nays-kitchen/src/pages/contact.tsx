@@ -43,7 +43,7 @@ export default function Contact() {
 
           {/* Instagram */}
           <a
-            href="https://www.instagram.com/nayssummadissummadat"
+            href="https://www.instagram.com/summadissummadat_kitchen?igsh=MTI5dmNsYjZ0ZTRkaQ=="
             target="_blank"
             rel="noopener noreferrer"
             className="group bg-card p-8 rounded-3xl border border-border shadow-sm hover:shadow-md hover:border-primary/30 transition-all duration-200 flex flex-col items-center text-center gap-4"

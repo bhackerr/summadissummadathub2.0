@@ -111,8 +111,7 @@ export function Layout({ children }: { children: ReactNode }) {
           <div>
             <h4 className="font-serif text-xl font-bold mb-6">Contact</h4>
             <ul className="space-y-4 text-background/80">
-              <li>123 xxxxxxx</li>
-              <a href="https://www.instagram.com/summadissummadat_kitchen?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> Instagram (Click Here)</a>
+              
               <li>(774) 437-0594</li>
               <li>hello@nayskitchen.com</li>
             </ul>
