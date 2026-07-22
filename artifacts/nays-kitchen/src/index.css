@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Outfit:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 @plugin "@tailwindcss/typography";
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 @custom-variant dark (&:is(.dark *));
 
@@ -163,7 +163,7 @@
   --app-font-script: 'Pacifico', cursive;
   --app-font-lobster: 'Lobster', cursive;
   --radius: 0.5rem;
-  
+
   --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
