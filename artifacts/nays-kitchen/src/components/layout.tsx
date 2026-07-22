@@ -28,7 +28,7 @@ export function Layout({ children }: { children: ReactNode }) {
         <div className="container mx-auto px-4 h-20 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <img
-              src="/images/logo-transparent.png"
+              src="/images/cateringnn.png"
               alt="Nay's Summa Dis Summa Dat Kitchen"
               className="h-14 w-auto object-contain"
             />
@@ -88,7 +88,7 @@ export function Layout({ children }: { children: ReactNode }) {
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-12">
           <div className="md:col-span-2">
             <img
-              src="/images/logo-transparent.png"
+              src="/images/cateringnn.png"
               alt="Nay's Summa Dis Summa Dat Kitchen"
               className="h-28 w-auto object-contain mb-4"
             />

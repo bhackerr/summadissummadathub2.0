@@ -89,7 +89,7 @@ export default function Menu() {
       <div className="bg-black py-20 px-4">
         <div className="container mx-auto max-w-4xl text-center">
           <img
-            src="/images/logo-transparent.png"
+            src="/images/cateringnn.png"
             alt="Nay's Kitchen"
             className="h-28 w-auto object-contain mx-auto mb-6"
           />
