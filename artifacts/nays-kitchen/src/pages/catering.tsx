@@ -91,7 +91,7 @@ export default function Catering() {
             </a>
 
             <a
-              href="https://www.instagram.com/nayssummadissummadat"
+              href="https://www.instagram.com/summadissummadat_kitchen?igsh=MTI5dmNsYjZ0ZTRkaQ=="
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-5 bg-card p-6 rounded-2xl border border-border shadow-sm hover:shadow-md hover:border-primary/30 transition-all duration-200"
